@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "EnchantMotion Behavior Pack",
+    "description": "Behavioral controllers and event triggers for enchanted item animations.",
+    "uuid": "161ba2b9-5d78-4970-b31a-d847385db13a",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "EnchantMotion Behaviors",
+      "type": "data",
+      "uuid": "ef85c4e0-40c4-4393-bf01-7d98b60f30f5",
+      "version": [1, 0, 1]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "064650a8-ff76-442c-91cd-6f176c9e1a76",
+      "version": [1, 0, 1]
+    }
+  ]
+}

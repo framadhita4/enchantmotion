@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: EnchantMotion
+Specification-Vendor: Developer
+Specification-Version: 1.0.1
+Implementation-Title: EnchantMotion
+Implementation-Version: 1.0.1
+Implementation-Vendor: Developer
+MixinConfigs: enchantmotion.mixins.json

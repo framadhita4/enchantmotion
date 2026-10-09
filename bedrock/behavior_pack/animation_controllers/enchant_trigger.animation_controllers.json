@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.enchantmotion.trigger": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "enchanting": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:enchanted_book') || query.has_enchant('sharpness')"
+            }
+          ]
+        },
+        "enchanting": {
+          "particle_effects": [
+            {
+              "effect": "enchantmotion:rune_orbit",
+              "locator": "lead"
+            },
+            {
+              "effect": "enchantmotion:glow_sparkle",
+              "locator": "lead"
+            }
+          ],
+          "transitions": [
+            {
+              "idle": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:enchanted_book') && !query.has_enchant('sharpness')"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

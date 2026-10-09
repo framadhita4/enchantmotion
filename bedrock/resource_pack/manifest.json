@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "EnchantMotion Resource Pack",
+    "description": "Custom visual animations, orbiting runes, and dynamic glints for enchanted gear.",
+    "uuid": "064650a8-ff76-442c-91cd-6f176c9e1a76",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "EnchantMotion Resources",
+      "type": "resources",
+      "uuid": "baf7164f-a608-4b76-b59c-043d7b68ee3e",
+      "version": [1, 0, 1]
+    }
+  ]
+}

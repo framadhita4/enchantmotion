@@ -1,0 +1,10 @@
+{
+  "mod_id": "enchantmotion",
+  "version": "1.0.1",
+  "schema_version": 1,
+  "features": {
+    "runes": true,
+    "item_glow": true,
+    "particles": true
+  }
+}

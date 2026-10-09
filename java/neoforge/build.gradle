@@ -1,0 +1,12 @@
+// path: java/neoforge/build.gradle
+plugins {
+    id 'java-library'
+}
+
+group = 'com.enchantmentanimation'
+version = project.findProperty('mod_version') ?: '1.0.1'
+
+dependencies {
+    api project(':core')
+    api project(':java:common')
+}

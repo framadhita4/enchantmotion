@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.enchantmentanimation.core.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockDestroyMixin",
+    "EnchantingTableBlockMixin",
+    "EnchantingTableBlockEntityMixin",
+    "EnchantmentMenuMixin"
+  ],
+  "client": ["EnchantTableRenderStateMixin", "EnchantTableRendererMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

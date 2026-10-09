@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantmotion",
+  "version": "${version}",
+  "name": "EnchantMotion",
+  "description": "Dynamic visual animations, orbiting runes, and glint effects for Minecraft enchanting.",
+  "authors": ["Developer"],
+  "contact": {
+    "sources": "https://github.com/example/enchantment-animation"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/enchantmotion/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enchantmentanimation.fabric.EnchantmentAnimationFabric::onInitialize"
+    ],
+    "client": [
+      "com.enchantmentanimation.fabric.client.EnchantmentAnimationClientFabric::onInitializeClient"
+    ]
+  },
+  "mixins": ["enchantmotion.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "java": ">=21"
+  }
+}

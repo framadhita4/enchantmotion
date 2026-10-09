@@ -1,0 +1,31 @@
+# Gradle build files and cache
+.gradle/
+build/
+bin/
+out/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Minecraft client / server run directories
+run/
+runClient/
+runServer/
+logs/
+*.log
+crash-reports/
+
+# Bedrock development artifacts
+bedrock/**/*.mcpack
+bedrock/**/*.mcaddon
+
+# OS generated files
+.DS_Store
+Thumbs.db

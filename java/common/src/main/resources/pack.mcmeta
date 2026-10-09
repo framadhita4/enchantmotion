@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "EnchantMotion Resources",
+    "min_format": [82, 0],
+    "max_format": 107
+  }
+}
